@@ -19,7 +19,7 @@ public class Main {
         System.out.println("byebye");
         System.out.println("ok");
 
-        System.setOut(ORIGINAL_OUT);
+        System.setOut(ORIGINAL_OUT); // 모니터로 출력 복원
 
         String result = byteArrayOutputStream.toString();
 
